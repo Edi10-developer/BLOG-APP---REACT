@@ -7,6 +7,7 @@ import Slider from './components/Slider';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import SeccionPruebas from './components/SeccionPruebas';
+import Peliculas from './components/Peliculas';
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
 
       <div className="center">
 
-        <SeccionPruebas/>
+        <Peliculas/>
 
         <Sidebar />
 
@@ -42,4 +43,4 @@ function App() {
 }
 
 export default App;
- 
+  
